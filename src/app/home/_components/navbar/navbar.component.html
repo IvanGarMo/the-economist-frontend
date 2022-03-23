@@ -1,0 +1,41 @@
+<div class="container" style="margin-top:5vh">
+    <div class="row">
+        <div class="col-sm-6 col-md-2">
+            <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_Economist_Logo.svg/1200px-The_Economist_Logo.svg.png"/>
+        </div>
+        <div class="col-sm-6 col-md-10 border-top-bottom">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-4 align-items-center justify-content-center">
+                            <label class="font">Menú</label>
+                        </div>
+                        <div class="col-sm-4 align-items-center justify-content-center">
+                            <label class="font">Weekly Edition</label>
+                        </div>
+                        <div class="col-sm-4 align-items-center justify-content-center">
+                            <label class="font">Search</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <button class="btn btn-primary font">Subscribe</button>
+                    </div>
+                    <div>
+                        <label class="display-6 font">Login</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-3">
+            <div *ngFor="let f of featured">
+                <label>{{f}}</label>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+.border-top-bottom {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.border-left-right {
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.border-left {
+    border-left: 1px solid grey;
+}
+
+.border-right {
+    border-right: 1px solid grey;
+}
+
+.label-middle-size {
+    font-family: 'Varta', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.label-block {
+    display: block;
+}
+
+.border-debug {
+    border: solid 1px black;
+}

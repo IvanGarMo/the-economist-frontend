@@ -1,0 +1,9 @@
+<div class="container">
+    <hr>
+    <div class="row">
+        <label>Most read by suscribers </label>
+    </div>
+    <div class="row" *ngFor="let m of mostRead; index as i;">
+        <app-card-number [post]="m" [number]="i+1"></app-card-number>
+    </div>
+</div>

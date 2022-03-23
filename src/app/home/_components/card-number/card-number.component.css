@@ -1,0 +1,21 @@
+.font {
+    font-family: 'Varta', sans-serif;
+}
+
+.number {
+    color: #dc2f2f;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.card-number-text {
+    font-size: 25px;
+}
+
+.padding-bottom {
+    padding-bottom: 10px;
+}
+
+.padding-top {
+    padding-top: 10px;
+}

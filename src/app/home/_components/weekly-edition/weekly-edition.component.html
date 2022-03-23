@@ -1,0 +1,23 @@
+<div class="container-fluid bg-weekly-edition">
+    <div class="row padding-top padding-bottom">
+        <div class="col-sm-12 col-md-4">
+            <img [src]="featuredPost.imageUrl" class="img-fluid">
+        </div>
+        <div class="col-sm-12 col-md-8 pl-card">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label class="d-block card-text font"><span class="bold">Weekly Edition:</span> {{featuredPost.date | date }}</label>
+                    <label class="d-block section-title font">{{featuredPost.name}}</label>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-sm-12 col-md-6 pl-card-text" *ngFor="let p of posts">
+                    <label class="label-block card-title font">{{p.name}}</label>
+                    <label class="label-block card-text  font">
+                        {{p.description}}
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

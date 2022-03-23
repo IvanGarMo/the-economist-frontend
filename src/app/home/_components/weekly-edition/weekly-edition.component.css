@@ -1,0 +1,42 @@
+.bg-weekly-edition {
+    background-color: #ebe6e6;
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.font {
+    font-family: 'Varta', sans-serif;
+}
+
+.pl-card {
+    padding-left: 50px;
+}
+
+.pl-card-text {
+    padding-bottom: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padding-top {
+    padding-top: 70px;
+}
+
+.padding-bottom {
+    padding-bottom: 40px;
+}
